@@ -36,3 +36,27 @@ nav ul li a:hover {
     color: #ffffffc1;
     transition: 0.2s ease;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 7%;
+    gap: 40px;
+}
+
+.headline-title {
+    flex: 1;
+}
+
+.header-image {
+    flex: 1;
+}
+
+.header-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.headline-title p {
+    font-weight: 200;
+}
